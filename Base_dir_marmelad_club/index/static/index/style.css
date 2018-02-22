@@ -1,3 +1,26 @@
-body{
-  background-color: green;
+html, body{
+  height: 100%;
+}
+.container-fluid{
+  overflow-x: hidden;
+  height:100%;
+  padding: 0;
+}
+
+
+.right-img{
+  left:0;
+  background: url('images/kindergarten_xl.jpg') center center no-repeat;
+  background-size: cover;
+  height:100%;
+}
+.row{
+  height:100%;
+}
+
+.left-img{
+  left:0;
+  background: url('images/holiday_xl.jpg') center center no-repeat;
+  background-size: cover;
+  height:100%;
 }

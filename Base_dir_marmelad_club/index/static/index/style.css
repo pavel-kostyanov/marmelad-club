@@ -1,26 +1,19 @@
 html, body{
   height: 100%;
 }
-.container-fluid{
-  overflow-x: hidden;
-  height:100%;
-  padding: 0;
-}
 
 
-.right-img{
-  left:0;
-  background: url('images/kindergarten_xl.jpg') center center no-repeat;
-  background-size: cover;
-  height:100%;
+header{
+  background: url('./images/header.jpg') repeat-x;
+  
 }
-.row{
-  height:100%;
+#header{
+  flex-wrap: nowrap;
+  align-self:stretch;
 }
+@include media-breakpoint-only(sm) {
 
-.left-img{
-  left:0;
-  background: url('images/holiday_xl.jpg') center center no-repeat;
-  background-size: cover;
-  height:100%;
+  header .container{
+
+  }
 }

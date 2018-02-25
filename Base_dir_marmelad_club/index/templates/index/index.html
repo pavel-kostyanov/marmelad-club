@@ -3,12 +3,34 @@
 {% block title %}Главная{% endblock %}
 {% block content %}
 
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-xl-6 left-img"></div>
-      <div class="col-xl-6 right-img"></div>
-    </div>
+ <header>
+    <div class="container">
+
+      <div class="row justify-content-between">
+          <div class="col-xl-7 col-md-6 col-sm-5">
+            <img class="img-fluid" src="./static/index/images/logo.png" />
+          </div>
+
+
+          <div class="col-xl-4 offset-xl-1 col-md-6 col-sm-7 d-flex align-items-center">
+            <nav class="navbar justify-content-end navbar-expand-sm navbar-light">
+              <ul class="nav navbar-nav nav-fill">
+              <a class="nav-item nav-link" href="#about">Новости</a>
+                <a class="nav-item nav-link" href="#features">Цены</a>
+                <a class="nav-item nav-link" href="#pricing">О нас</a>
+                <a class="nav-item nav-link" href="contact.html">Контакты</a>
+              </ul>
+            </nav>
+          </div>
+      </div>
+   </div>
+</header>
+<!-- <section class="container">
+  <div class="row col-12 ustify-content-between" style="outline: 1px solid black; flex-wrap: nowrap;">
+    <img class="img-fluid" src="./static/index/images/candy-icon.png" style="outline: 1px solid green" />
+    <img class="img-fluid" src="./static/index/images/logo.png" style="outline: 1px solid blue"/>
   </div>
+</section> -->
 
 
 {% endblock %}
